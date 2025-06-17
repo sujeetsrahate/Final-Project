@@ -46,7 +46,7 @@ The Event Management Dashboard is a web-based application designed to help organ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RASHANTH793/event-management-dashboard.git
+   git clone https://github.com/yogeshpri/Capstone-Project
    cd event-management-dashboard
    ```
 
@@ -66,7 +66,7 @@ The Event Management Dashboard is a web-based application designed to help organ
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/RASHANTH793/event-management-dashboard-backend.git
+   git clone https://github.com/yogeshpri/Capstone-Project
    cd event-management-dashboard-backend
    ```
 
@@ -219,5 +219,5 @@ This project is licensed under the MIT License.
 ---
 
 ## Contributors
-- J Prashanth ([GitHub Profile](https://github.com/RASHANTH793))
+- Yogesh Priyadarshi ([GitHub Profile][(https://github.com/yogeshpri/Capstone-Project))]
 
