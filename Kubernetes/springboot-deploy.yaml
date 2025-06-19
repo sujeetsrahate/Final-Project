@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: spring-boot-deploy
-  namespace: project-d1
+  namespace: caps
 spec:
   selector:
     matchLabels:
@@ -14,13 +14,6 @@ spec:
     spec:
       containers:
         - name: spring-boot-app
-          image: prashanth7993/backend:v5
-          env:
-            - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://mysql:3306/EventManagement
-            - name: SPRING_DATASOURCE_USERNAME
-              value: root
-            - name: SPRING_DATASOURCE_PASSWORD
-              value: root
+          image: yogeshpri/backtestimg:v1
           ports:
-            - containerPort: 8080
+            - containerPort: 80
