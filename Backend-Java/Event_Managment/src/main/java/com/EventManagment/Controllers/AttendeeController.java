@@ -20,7 +20,7 @@ import com.EventManagment.service.AttendeeNotFoundException;
 import com.EventManagment.service.AttendeeService;
 import com.EventManagment.service.EventNotFoundException;
 
-@CrossOrigin(origins = "http://134.33.21.36:80")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/attendees")
 public class AttendeeController {

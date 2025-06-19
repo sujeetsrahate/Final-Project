@@ -1,5 +1,5 @@
 import axios from 'axios';
-const BASE_URL = 'http://134.33.28.241:80/api'; // Replace with your backend's API base URL
+const BASE_URL = 'http://4.237.205.127:80/api'; // Replace with your backend's API base URL
 
 
 

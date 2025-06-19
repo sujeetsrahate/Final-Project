@@ -20,7 +20,7 @@ import com.EventManagment.model.Event;
 import com.EventManagment.service.EventNotFoundException;
 import com.EventManagment.service.EventService;
 
-@CrossOrigin(origins = "http://3.136.165.99:30007")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/events")
 public class EventController {

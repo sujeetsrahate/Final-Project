@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: react-event-app-latest
-          image: yogeshpri/testimg:v2
+          image: yogeshpri/newfrontimggg:v1
           ports:
             - containerPort: 80
