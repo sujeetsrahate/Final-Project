@@ -2,8 +2,9 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: mysql-deploy
-  namespace: project-d1
+  namespace: caps
 spec:
+  serviceName: mysql
   selector:
     matchLabels:
       app: mysql
