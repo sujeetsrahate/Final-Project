@@ -40,18 +40,11 @@
             <scope>provided</scope>
         </dependency>
 
-        <!-- MySQL Connector -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.28</version>
-        </dependency>
-
-        <!-- Microsoft SQL Server JDBC driver (version available on Maven Central) -->
+        <!-- Microsoft SQL Server JDBC Driver -->
         <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
-            <version>11.2.1.jre11</version>
+            <version>12.2.0.jre11</version>
         </dependency>
 
         <!-- Logging Dependencies -->

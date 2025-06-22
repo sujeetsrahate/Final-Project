@@ -1,5 +1,6 @@
 import axios from 'axios';
-const BASE_URL = 'http://a9e362f8434d54611b122ac9bb61e94c-1950524357.us-east-1.elb.amazonaws.com'; Replace with your backend's API base URL
+const BASE_URL = 'http://a9daa4eaae3c24d35b7b3b8331ccdd90-496495981.us-east-1.elb.amazonaws.com/api';
+// Replace with your backend's API base URL
 
 
 
